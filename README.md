@@ -14,6 +14,9 @@ Sequence-to-sequence models are a type of neural network architecture that can b
 
 This project implements a sequence-to-sequence model with Bahdanau attention using TensorFlow. The model is trained on a dataset of English and Shakespearean sentences to translate Shakespearean sentences to English.
 
+In the code, the encoder is implemented using a recurrent neural network (RNN) with a Gated Recurrent Unit (GRU) cell. The GRU cell processes the input sequence token by token and updates its internal state at each step.Bahdanau attention allows the decoder to focus on different parts of the input sequence dynamically at each time step. It calculates attention weights based on the current decoder state and the encoder outputs. We also experimented with dot product attention but Bahdanau attention mechanism performed well. The decoder takes the context vector produced by the encoder and generates the output sequence token by token. At each time step, the decoder attends to different parts of the input sequence (or context) using an attention mechanism. The training loss decreases steadily over the epochs, indicating effective learning initially. However, towards the end of training, the validation loss begins to increase, suggesting potential overfitting.
+
+
 ## Dependencies
 
 To run this project, you need the following dependencies:
