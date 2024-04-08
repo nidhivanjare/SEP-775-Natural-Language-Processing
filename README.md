@@ -52,9 +52,11 @@ Once we have created this dataset, after the first iteration, we train our model
 
 The unsupervised learning folder has three Jupyter notebooks.
 
-1. The data preparation file is used to create our first Pusedo parallel dataset. You can directly use the data.xlsx file, as it is the output from our first iteration and contains 843 review pairs.
+1. The data preparation creation script notebook is used to create our first Pusedo parallel dataset. You can directly use the data.xlsx file, as it is the output from our first iteration and contains 843 review pairs.
 
-2. The next notebook is positive_negative, which is used to preprocess and clean the initial data input, train the t5-small model with our dataset, save the model, and test the model.
+To access the origin dataset you can use this link: https://drive.google.com/file/d/1sZOKXfgtEidZui5OFSOJcMue0_Np9Y3d/view?usp=sharing
+
+3. The next notebook is positive_negative, which is used to preprocess and clean the initial data input, train the t5-small model with our dataset, save the model, and test the model.
 
 To directly access the trained model after the first iteration, you can access this link: https://drive.google.com/drive/folders/1zXKjhGM86_iigeazRfFoomoPSqVCpclm?usp=share_link
 
