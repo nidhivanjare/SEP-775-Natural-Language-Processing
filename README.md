@@ -24,7 +24,7 @@ TensorFlow 2.x
 - pandas
 
 To use this project, follow these steps:
-
+(Dataset available in the same folder)
 1. Clone the repository:
 
 ```bash
